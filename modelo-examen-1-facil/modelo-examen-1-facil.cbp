@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="modelo-examen-1-facil" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/modelo-examen-1-facil" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="buscaDni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="existeDni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="existeUserName.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones.h" />
+		<Unit filename="hardcodea.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="headers.h" />
+		<Unit filename="ingreso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="logAdmin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="muestra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ocultaPass.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structs.h" />
+		<Unit filename="verificaPass.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
